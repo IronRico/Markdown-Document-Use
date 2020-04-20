@@ -1,0 +1,91 @@
+# Markdown Support Document
+---
+## Formatting the text
+
+#### Italics
+
+To make an item appear in italics, you will need to wrap it inside of an asterisks pair.  See below for an example.
+
+"You see, the woman called her a *harlot* and left!
+
+#### Bold
+To make an item appear bold, use double asterisks to wrap the target.  See below:
+
+"No, that is **NOT** the sandwich I ordered!"
+
+#### Bold & Italics
+
+To use both the bold and italics format, simply increase the asterisk count to 3 to wrap it.  See below:
+
+***"I was lost inside my own head.  Thinking thoughts that should not be.  What was I going to do?  Could I really eat a hot sauce and jelly sandwich?"***
+
+
+#### Using Links in Markdown
+
+To use a link, you need to perform two simple steps.
+
+1. Wrap the word(s) that will house the link in a square bracket, **[  ]**.
+
+2. Following the brackets, wrap the actual link in parentheses, **( )**.
+
+Looking at the example below, you can see I also added double asterisks to the link to make it bold.
+
+If you never tried out the miniature combat games of Games Workshop, please check out this **[link](https://www.games-workshop.com/en-US/Warhammer-40-000)**.
+
+
+#### Using Images in Markdown
+
+To insert an image, it is much the same as using a link.
+You simply have to include an exclamation mark in front of the square brackets. 
+
+"![Description of the image](Image link)"
+
+See the image of the puppy below to know you are doing well.  
+
+![Cute litte puppy](https://ichef.bbci.co.uk/wwfeatures/live/976_549/images/live/p0/7z/n7/p07zn7p7.jpg)
+
+#### List
+
+You can make lists with little effort in Markdown.
+For numbered list, you can simply order it via the use of number.  See below.
+
+1. This is item 1
+2. This is item 2
+3. This is item 3
+
+For bullets, you can use an asterisk or the plus symbol.  Markdown will convert them to bullet points. See below.
+
+* This is another item 1
+* This is another item 2
+* This is another item 3
+
+**Note**: You can use an indent of four spaces to nest a list within a list.
+
+* Fruits
+    * Mango
+    * Apple
+* Meats
+    * Beef
+    * Steak
+
+#### Using Quotes
+
+To use denote a quote, simply prefix the line with a ">".
+See the example below.
+
+>It was the worst of times, it was the best of times..
+
+
+#### Inserting a line divider
+To use a quick horizontal divider, use three dashes.
+You can see it in use below.
+
+---
+
+#### Using Code Snippets
+
+ Using a single back-tick around a word in a sentence, you can show a quick code snippet.
+
+ Indenting by 4 spaces will turn an entire paragraph into a code-block.
+
+ `Let age = 34;
